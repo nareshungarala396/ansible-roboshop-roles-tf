@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb.nareshplace.fun
+REDIS_HOST: redis.nareshplace.fun
+CATALOGUE_HOST: catalogue.nareshplace.fun
+CART_HOST: cart.nareshplace.fun
+USER_HOST: cart.nareshplace.fun
+RABBITMQ_HOST: cart.nareshplace.fun
+MYSQL_HOST: mysql.nareshplace.fun 
+SHIPPING_HOST: shipping.nareshplace.fun
+PAYMENT_HOST: payment.nareshplace.fun
+
