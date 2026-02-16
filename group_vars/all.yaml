@@ -1,10 +1,10 @@
 MONGODB_HOST: mongodb-{{ env }}.nareshplace.fun
 REDIS_HOST: redis-{{ env }}.nareshplace.fun
-CATALOGUE_HOST: catalogue-{{ env }}.nareshplace.fun
-CART_HOST: cart-{{ env }}.nareshplace.fun
-USER_HOST: user-{{ env }}.nareshplace.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.nareshplace.fun
+CART_HOST: cart.backend-alb-{{ env }}.nareshplace.fun
+USER_HOST: user.backend-alb-{{ env }}.nareshplace.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.nareshplace.fun
 MYSQL_HOST: mysql-{{ env }}.nareshplace.fun 
-SHIPPING_HOST: shipping-{{ env }}.nareshplace.fun
-PAYMENT_HOST: payment-{{ env }}.nareshplace.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.nareshplace.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.nareshplace.fun
 
